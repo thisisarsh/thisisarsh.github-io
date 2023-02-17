@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 body {
     scroll-behavior: smooth;
     font-family: 'Roboto Mono', monospace;
@@ -8,8 +15,12 @@ body {
 }
 
 .nav-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: larger;
 }
 
@@ -27,6 +38,8 @@ body {
     position: absolute;
     height: 3025px;
     width: 100%;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#001219), color-stop(#081f29), color-stop(#0a2d39), color-stop(#0a3b4a), color-stop(#084a5b), color-stop(#065566), color-stop(#036072), color-stop(#006c7d), color-stop(#007684), color-stop(#007f8b), color-stop(#008991), to(#0a9396));
+    background-image: -o-linear-gradient(left bottom, #001219, #081f29, #0a2d39, #0a3b4a, #084a5b, #065566, #036072, #006c7d, #007684, #007f8b, #008991, #0a9396);
     background-image: linear-gradient(to right top, #001219, #081f29, #0a2d39, #0a3b4a, #084a5b, #065566, #036072, #006c7d, #007684, #007f8b, #008991, #0a9396);
     padding-bottom: 0;
     z-index: -1;
@@ -41,10 +54,16 @@ body {
 }
 
  .social{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
-    align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -58,12 +77,20 @@ body {
 }
 
 .hero{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
     -webkit-box-align: center;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
     min-height: 100vh;
     height: 100vh;
 
@@ -100,9 +127,12 @@ h2{
 }
 
 .numbered-heading {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
     position: relative;
     margin: 10px 0px 40px;
     width: 100%;
@@ -134,5 +164,4 @@ h2{
         width: 100%;
     }
 }
-
 
