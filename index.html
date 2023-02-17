@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <link rel="stylesheet" href="./src/index.css">
@@ -13,9 +13,9 @@
     </head>
 <body>
     <main>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Arshjot Ghuman</a>
+              <a class="navbar-brand" href="#">ARSH</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,10 +36,10 @@
                         <a class="nav-link active" aria-current="page" href = "#about-me">Projects</a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link active" aria-current="page" href = "#about-me">Resume</a>
+                        <a class="nav-link active" aria-current="page" href = "#about-me">Connect</a>
                     </li>
                     <li class = "nav-item">
-                        <a class="nav-link active" aria-current="page" href = "#about-me">Connect</a>
+                        <button class="btn btn-outline-success me-2" type="button">Resume</button>
                     </li>
                   </ul>
                 </div>
@@ -52,26 +52,57 @@
         </div>
         <script src="./src/particles.js"></script>
         <script src="./src/app.js"></script>
-
-
-          <section>
-            <div>
-                <div>
-                    Hi,<br>
+        <section class="hero">
+            <div class="container-fluid">
+                <div class="greet-head">
+                    <h3>Hi, I am</h3>,
                 </div>
                 <div>
-                    I am Arsh!<br>
+                    <h1 class = "display-1">Arshjot Singh Ghuman.</h1>
                 </div>
                 <div>
-                    I build things for world.<br>
+                    <h2 class="display-4">I build solutions for world.</h2>
                 </div>
-                <div>
-                    I'm a general software engineer with understanding of various technologies.
-                    I WRITE, TEST, DOCUMENT, COLLABORATE and am gaining expierence.
-                    Currently I am focusing my studies in "Parallel Programming" and "Machine Learning".
+                <div class="summary">
+                    <p>
+                        I'm a general software engineer with understanding of various technologies.
+                        I WRITE, TEST, DOCUMENT, COLLABORATE and am gaining expierence.
+                        Currently I am focusing my studies in "Parallel Programming" and "Machine Learning".
+                    </p>
+                    
                 </div>
             </div>
+        </section>
+        
+        <section>
+            <h2 class="numbered-heading">About Me</h2>
+            <div class="inner container-fluid">
+                <div class="about-me-text">
+                    <div>
+                        <p>
+                            Hello! My name is Arsh and I enjoy creating things that eases people's lives.
+                            I am from Punjab, India and came to Canada in 2019 for my Bachelor's in Science degree.
+                            My interest is in low-level Programming. Started back in 2008 when I was 8-yrs old I first came to know about how websites are developed
+                            and I started writing small HTML codes. Then I started to explore computers, thier hardware and, wrote small bash scripts.
+                        </p>
 
+                        <p>
+                            I was always intrigued by the working of computers at low-level. I used to open up my computer and repair it myself and after when I finished my high-school, I started programming using C/C++.
+                            After that I did start learning more programming languages like Java, JavaScript, Python etc.
+                        </p>
+                        <p>
+                            Today, I can learn any new technology instantly and
+                        </p>
+                    </div>
+
+                </div>
+                <div class="about-me-picture">
+
+                </div>
+            </div>
+        </section>
+            
+        <section>
             <div orientation="left" class="socialD">
                 <ul class="social">
                     <li>
@@ -116,39 +147,8 @@
                     </li>
                 </ul>
             </div>
-
-
-          </section>
+        </section>
     </main>
-
-        
-        <!-- <nav class="navbar navbar-expand-lg navbar-dark">
-            <ul class = "navigation-items">
-                <li class = "navigation-item">
-                    <a href = "#about-me">About</a>
-                </li>
-                <li class = "navigation-item">
-                    <a href = "#about-me">Skills</a>
-                </li>
-                <li class = "navigation-item">
-                    <a href = "#about-me">Projects</a>
-                </li>
-                <li class = "navigation-item">
-                    <a href = "#about-me">Resume</a>
-                </li>
-                <li class = "navigation-item">
-                    <a href = "#about-me">Connect</a>
-                </li>
-            </ul>
-        </nav> -->
-
-    <!-- <div id = "main-content">
-        <h2>
-            Hey, <br>
-            I'm ARSH, <br>
-            I build things for world!
-        </h2>
-    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
