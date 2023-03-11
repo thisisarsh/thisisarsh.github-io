@@ -1,10 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 :root{
     --easing: cubic-bezier(0.645,0.045,0.355,1);
     --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
@@ -48,26 +41,11 @@ svg.feather {
     fill: none;
 }
 
-/* nav{
-    
-}  */
-
-/* nav{
-    background-color: #007684;
-} */
-
-/* .offcanvas-body {
-    backdrop-filter: blur(10px);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-} */
-
-
-
 @media screen and (max-width: 992px){
     .offcanvas {
     background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(5px);
     }
@@ -86,7 +64,11 @@ svg.feather {
 
 
 .navbar-nav{
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
     transition: var(--transition);
 }
 
@@ -95,7 +77,8 @@ svg.feather {
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 0;
+    -webkit-box-shadow: 0 0 0 0;
+            box-shadow: 0 0 0 0;
 }
 
 @media screen and (max-width:992px) {
@@ -109,8 +92,8 @@ svg.feather {
     top: 0;
     height: 3000px;
     width: 100%;
-    background-image: -webkit-gradient(linear, left bottom, right top, from(#001219), color-stop(#081f29), color-stop(#0a2d39), color-stop(#0a3b4a), color-stop(#084a5b), color-stop(#065566), color-stop(#036072), color-stop(#006c7d), color-stop(#007684), color-stop(#007f8b), color-stop(#008991), to(#0a9396));
     background-image: -o-linear-gradient(left bottom, #001219, #081f29, #0a2d39, #0a3b4a, #084a5b, #065566, #036072, #006c7d, #007684, #007f8b, #008991, #0a9396);
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#001219), color-stop(#081f29), color-stop(#0a2d39), color-stop(#0a3b4a), color-stop(#084a5b), color-stop(#065566), color-stop(#036072), color-stop(#006c7d), color-stop(#007684), color-stop(#007f8b), color-stop(#008991), to(#0a9396));
     background-image: linear-gradient(to right top, #001219, #081f29, #0a2d39, #0a3b4a, #084a5b, #065566, #036072, #006c7d, #007684, #007f8b, #008991, #0a9396);
     padding-bottom: 0;
     z-index: -1;
@@ -122,16 +105,25 @@ svg.feather {
     bottom: 0px;
     left: 40px;
     right: auto;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 
 footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-    justify-content: center;
+    -ms-flex-pack: center;
+        justify-content: center;
     -webkit-box-align: center;
-    align-items: center;
-    flex-direction: column;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     height: auto;
     min-height: 70px;
     padding: 15px;
@@ -150,11 +142,15 @@ footer{
         margin: 0px auto 10px;
     }
     .footer-social{
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         -webkit-box-pack: justify;
-        justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
         -webkit-box-align: center;
-        align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
         padding: 0px;
         margin: 0px;
         list-style: none;
@@ -196,10 +192,14 @@ footer{
     margin: 0px;
     padding: 0px;
     list-style: none;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    -webkit-margin-before: 1em;
+            margin-block-start: 1em;
+    -webkit-margin-after: 1em;
+            margin-block-end: 1em;
+    -webkit-margin-start: 0px;
+            margin-inline-start: 0px;
+    -webkit-margin-end: 0px;
+            margin-inline-end: 0px;
 }
 
 .social li a, .footer-social li a{
@@ -212,9 +212,12 @@ footer{
 a{
     display: inline-block;
     text-decoration: none;
-    text-decoration-skip-ink: auto;
+    -webkit-text-decoration-skip: ink;
+            text-decoration-skip-ink: auto;
     color: inherit;
     position: relative;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
     transition: var(--transition);
 }
 
@@ -301,7 +304,9 @@ h2{
 }
 
 .numbered-heading::after {
-    flex: 1;
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     content: "";
     display: block;
     position: relative;
@@ -326,6 +331,8 @@ h2{
     line-height: 1;
     text-decoration: none;
     cursor: pointer;
+    -webkit-transition: var(--transition);
+    -o-transition: var(--transition);
     transition: var(--transition);
     margin-top: 50px;
 }
