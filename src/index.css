@@ -12,6 +12,15 @@
     border-radius: 10px;
 }
 
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     overflow-x: hidden;
@@ -22,9 +31,6 @@ body {
     color: #8ecae6;
     overflow: overlay;
     counter-reset: section;
-
-    
-
 }
 
 img, svg{
@@ -88,12 +94,12 @@ svg.feather {
 }
 
 #particles-js{
-    position: absolute;
+    position: fixed;
     top: 0;
-    height: 3000px;
+    height: 100%;
     width: 100%;
     background-image: -o-linear-gradient(left bottom, #001219, #081f29, #0a2d39, #0a3b4a, #084a5b, #065566, #036072, #006c7d, #007684, #007f8b, #008991, #0a9396);
-    background-image: -webkit-gradient(linear, left bottom, right top, from(#001219), color-stop(#081f29), color-stop(#0a2d39), color-stop(#0a3b4a), color-stop(#084a5b), color-stop(#065566), color-stop(#036072), color-stop(#006c7d), color-stop(#007684), color-stop(#007f8b), color-stop(#008991), to(#0a9396));
+    background-image: --webkit-gradient(linear, left bottom, right top, from(#001219), color-stop(#081f29), color-stop(#0a2d39), color-stop(#0a3b4a), color-stop(#084a5b), color-stop(#065566), color-stop(#036072), color-stop(#006c7d), color-stop(#007684), color-stop(#007f8b), color-stop(#008991), to(#0a9396));
     background-image: linear-gradient(to right top, #001219, #081f29, #0a2d39, #0a3b4a, #084a5b, #065566, #036072, #006c7d, #007684, #007f8b, #008991, #0a9396);
     padding-bottom: 0;
     z-index: -1;
@@ -126,7 +132,6 @@ footer{
             flex-direction: column;
     height: auto;
     min-height: 70px;
-    padding: 15px;
     text-align: center;
 }
 
@@ -159,8 +164,6 @@ footer{
         display: none;
     }
 }
-
-
 
 .socialD::after{
     content: "";
