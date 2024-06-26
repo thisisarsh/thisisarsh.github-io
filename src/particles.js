@@ -6,6 +6,8 @@
 /* How to use? : Check the GitHub README
 /* v2.0.0
 /* ----------------------------------------------- */
+console.log("Loaded!");
+
 
 var pJS = function(tag_id, params){
 
