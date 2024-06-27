@@ -171,3 +171,17 @@ window.onload = function() {
   css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
   document.body.appendChild(css);
 };
+
+const text = document.getElementById('fancy-3');
+const range = 16;
+
+function updateShadow(event) {
+  const x = Math.round(event.pageX * range / window.innerWidth) - range / 2;
+  const y = Math.round(event.pageY * range / window.innerHeight) - range / 2;
+  gsap.to(text, {
+    '--x': x,
+    '--y': y,
+  });
+}
+
+document.body.addEventListener('mousemove', updateShadow);
