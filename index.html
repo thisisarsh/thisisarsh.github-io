@@ -1,53 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Arshjot Ghuman</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;700;800&amp;display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-        <link rel="stylesheet" href="./src/index.css">
 
-    </head>
+<head>
+    <title>Arshjot Ghuman</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Glory:wght@100;200;300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./src/index.css">
+    <link rel="stylesheet" href="./src/sass.css">
+
+</head>
+
 <body>
     <main>
         <nav class="navbar navbar-expand-lg" aria-label="Offcanvas navbar large">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">ARSH</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                <a class="navbar-brand" href="#">ARSH</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label"></h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#about-me">Connect</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-dark">Resume</button>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class = "nav-item">
-                        <a class="nav-link active" aria-current="page" href = "#about-me">About</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a class="nav-link active" aria-current="page" href = "#about-me">Skills</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a class="nav-link active" aria-current="page" href = "#about-me">Projects</a>
-                    </li>
-                    <li class = "nav-item">
-                        <a class="nav-link active" aria-current="page" href = "#about-me">Connect</a>
-                    </li>
-                    <li class = "nav-item">
-                        <button type="button" class="btn btn-dark">Resume</button>
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
-          </nav>
+        </nav>
 
 
         <section class="hero">
@@ -56,127 +65,515 @@
                     <h3>Hi, I am</h3>,
                 </div>
                 <div>
-                <h1 class = "display-1">
-                    <span id="fancy-3">Arshjot</span> <span class="fancy">Singh</span> <span class="fancy-2">Ghuman</span></h1>
+                    <h1 class="display-1">
+                        <span id="fancy-3">Arshjot</span> <span class="fancy">Singh</span> <span
+                            class="fancy-2">Ghuman</span>
+                    </h1>
                 </div>
                 <br>
                 <div>
                     <h1>
-                        <a href="" class="typewrite" data-period="2000" data-type='[ "Software Developer", "Machine Learning Engineer", "QA Engineer", "Tutor", "Software Engineer", "A Human", "Coder" ]'>
-                          <span class="wrap"></span>
+                        <a href="" class="typewrite" data-period="2000"
+                            data-type='[ "Software Developer", "Machine Learning Engineer", "QA Engineer", "Tutor", "Software Engineer", "A Human", "Coder" ]'>
+                            <span class="wrap"></span>
                         </a>
-                      </h1>
+                    </h1>
                 </div>
                 <div>
                     <h2 class="display-4">I build solutions for world.</h2>
                 </div>
                 <div class="summary">
                     <p>
-                        As a <strong>Software Engineer</strong>, I possess a <strong>broad range of technical knowledge and skills</strong>.
-                        I specialize in <strong>writing, testing, and documenting software</strong>, and I thrive on <strong>collaborating with others to create innovative solutions</strong>.
+                        As a <strong>Software Engineer</strong>, I possess a <strong>broad range of technical knowledge
+                            and skills</strong>.
+                        I specialize in <strong>writing, testing, and documenting software</strong>, and I thrive on
+                        <strong>collaborating with others to create innovative solutions</strong>.
                         I am continually gaining experience and expanding my expertise, with a current focus on
-                        developing proficiency in the areas of <strong>parallel programming and machine learning</strong>.
-                        My goal is to use these skills to <strong>create cutting-edge software that solves complex problems and improves people's lives</strong>.
+                        developing proficiency in the areas of <strong>parallel programming and machine
+                            learning</strong>.
+                        My goal is to use these skills to <strong>create cutting-edge software that solves complex
+                            problems and improves people's lives</strong>.
                     </p>
-                    
+
                 </div>
             </div>
         </section>
-        
+
         <section>
             <h2 class="numbered-heading">About Me</h2>
             <div class="inner container-fluid">
                 <div class="about-me-text">
                     <div>
                         <p>
-                            Greetings! My name is Arsh, and I find immense joy in creating solutions that simplify people's lives. 
-                            Originally from Punjab, India, I moved to Canada in 2019 to pursue a Bachelor's degree in Science. 
-                            My primary area of interest is machine learning, with a special focus on deep learning and computer vision.
+                            Greetings! My name is Arsh, and I find immense joy in creating solutions that simplify
+                            people's lives.
+                            Originally from Punjab, India, I moved to Canada in 2019 to pursue a Bachelor's degree in
+                            Science.
+                            My primary area of interest is machine learning, with a special focus on deep learning and
+                            computer vision.
                         </p>
-                    
+
                         <p>
-                            My journey into the world of computers began at a very young age. When I was just six years old, my father bought our first computer. 
-                            It ran on an older version of Windows XP, and I spent countless hours exploring the operating system and playing with simulation software. 
-                            My curiosity often led me to create impossible simulations, blending my interest in physics with my newfound love for technology.
+                            My journey into the world of computers began at a very young age. When I was just six years
+                            old, my father bought our first computer.
+                            It ran on an older version of Windows XP, and I spent countless hours exploring the
+                            operating system and playing with simulation software.
+                            My curiosity often led me to create impossible simulations, blending my interest in physics
+                            with my newfound love for technology.
                         </p>
-                    
+
                         <p>
-                            As I grew older, I started writing small bash scripts to automate tasks on my computer. 
-                            Whenever a computer broke in our neighborhood, I was the go-to person for repairs. 
-                            It was no surprise to my family when I decided to pursue a career in software engineering. 
+                            As I grew older, I started writing small bash scripts to automate tasks on my computer.
+                            Whenever a computer broke in our neighborhood, I was the go-to person for repairs.
+                            It was no surprise to my family when I decided to pursue a career in software engineering.
                             After grade 12, I taught myself C++, fascinated by its power to create anything.
                         </p>
-                    
+
                         <p>
-                            Over time, I have become proficient in other programming languages such as Java, JavaScript, and Python. 
-                            I'm a quick learner, able to pick up new technologies swiftly. 
-                            My skills span across web development, mobile development, data science, and low-level programming, with a particular interest in parallel programming and machine learning.
+                            Over time, I have become proficient in other programming languages such as Java, JavaScript,
+                            and Python.
+                            I'm a quick learner, able to pick up new technologies swiftly.
+                            My skills span across web development, mobile development, data science, and low-level
+                            programming, with a particular interest in parallel programming and machine learning.
                         </p>
                     </div>
-                    
+
 
                 </div>
                 <div class="about-me-picture">
                     <div class="wrapper">
-                        
+
                     </div>
                 </div>
             </div>
         </section>
-            
-        <section>
-            <h2 class="numbered-heading">Skills I've crafted</h2>
-            <div class="inner container-fluid">
-                <div class="pl">
-                    Programming Languages:
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>C/C++</li>
-                    <li>Java</li>
-                    <li>Rust</li>
-                    <li>TensorFlow</li>
-                    <li>PyTorch</li>
-                    <li>CUDA</li>
-                    <li>SQL</li>
-                </ul>
 
+        <section>
+            <h2 class="numbered-heading">Skills I've Crafted</h2>
+            <div class="inner container-fluid">
+
+                <div class="orbit">
+
+                    <ul class="orbit-wrap">
+
+                        <li class="orbit-center">
+                            <i class="orbit-center__icon fa fa-code"></i>
+                        </li>
+
+                        <li>
+                            <ul class="ring-0">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                                        alt="Python" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                        alt="JavaScript" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                                        alt="TypeScript" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+                                        alt="C" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                                        alt="C++" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                                        alt="C#" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                                        alt="Java" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
+                                        alt="Rust" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                                        alt="PHP" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                                        alt="HTML5" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                                        alt="CSS3" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                                        alt="Sass" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+                                        alt="Bash" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg"
+                                        alt="LaTeX" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg"
+                                        alt="Markdown" /></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <ul class="ring-1">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg"
+                                        alt="Visual Studio" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                                        alt="VS Code" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg"
+                                        alt="JetBrains" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original-wordmark.svg"
+                                        alt="Eclipse" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-plain-wordmark.svg"
+                                        alt="IntelliJ" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webstorm/webstorm-original.svg"
+                                        alt="WebStorm" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original-wordmark.svg"
+                                        alt="PyCharm" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
+                                        alt="Jupyter" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original-wordmark.svg"
+                                        alt="Android Studio" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg"
+                                        alt="Xcode" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg"
+                                        alt="Apple" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                                        alt="Linux" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original-wordmark.svg"
+                                        alt="Debian" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original-wordmark.svg"
+                                        alt="Ubuntu" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/centos/centos-original-wordmark.svg"
+                                        alt="CentOS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original-wordmark.svg"
+                                        alt="Windows 11" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original-wordmark.svg"
+                                        alt="Android" /></li>
+
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="ring-2">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg"
+                                        alt="TensorFlow" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
+                                        alt="Express" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                                        alt="Node.js" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                                        alt="React" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original-wordmark.svg"
+                                        alt="Angular" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+                                        alt="Redux" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg"
+                                        alt="Electron" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+                                        alt="Next.js" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
+                                        alt="Spring" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+                                        alt="Tailwind CSS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materializecss/materializecss-original.svg"
+                                        alt="Materialize CSS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                                        alt="Bootstrap" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg"
+                                        alt="React Bootstrap" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+                                        alt=".NET Core" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg"
+                                        alt="FastAPI" /></li>
+
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="ring-3">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg"
+                                        alt="SQL Server" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                                        alt="MySQL" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg"
+                                        alt="SQL Developer" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg"
+                                        alt="SQLite" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+                                        alt="PostgreSQL" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                                        alt="MongoDB" /></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="ring-4">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                        alt="AWS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
+                                        alt="Google Cloud" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg"
+                                        alt="Azure" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg"
+                                        alt="Firebase" /></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="ring-5">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg"
+                                        alt="TensorFlow" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg"
+                                        alt="Keras" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg"
+                                        alt="PyTorch" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg"
+                                        alt="NumPy" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg"
+                                        alt="Pandas" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+                                        alt="Matplotlib" /></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="ring-6">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
+                                        alt="Docker" /></li>
+
+
+                            </ul>
+                        </li>
+                        <li>
+                            <ul class="ring-7">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg"
+                                        alt="GitLab CI/CD" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                                        alt="GitHub Actions" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"
+                                        alt="GitHub Actions" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+                                        alt="Git" /></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+
+                <div class="pl">
+                    <h3>Programming Languages:</h3>
+
+                    <!-- <div class="logos">
+                        <div class="logo_items">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" alt="Python" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" alt="C" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" alt="Java" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" alt="Rust" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="PHP" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" alt="HTML5" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="CSS3" />
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg" alt="Sass" />
+                        </div>
+                    </div> -->
+                    <ul class="icon-list">
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
+                                alt="Python" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                                alt="JavaScript" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+                                alt="TypeScript" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg"
+                                alt="C" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+                                alt="C#" /></li>
+                    </ul>
+                    <ul class="icon-list">
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg"
+                                alt="Java" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg"
+                                alt="Rust" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg"
+                                alt="PHP" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
+                                alt="HTML5" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+                                alt="CSS3" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+                                alt="Sass" /></li>
+                    </ul>
+                    <ul class="icon-list">
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg"
+                                alt="Bash" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/latex/latex-original.svg"
+                                alt="LaTeX" /></li>
+                        <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/markdown/markdown-original.svg"
+                                alt="Markdown" /></li>
+                    </ul>
                 </div>
                 <div class="tc">
-                    Here are a few technologies I've worked with:
+                    <h3>Technologies I've Worked With:</h3>
                     <ul>
-                        Continous Integration / Continous Development:
-                        <li>GitLab CI/CD</li>
-                        <li>GitHub Actions</li>
-                        <br>
-                        Version Control:
-                        <li>GIT vcs</li>
-                        Databases:
-                        <li>MongoDB</li>
-                        <li>PostgreSQL</li>
-                        Containerization:
-                        <li>Docker</li>
+                        <li><strong>Continuous Integration / Continuous Deployment:</strong>
+                            <ul class="icon-list">
+                                <li>GitLab CI/CD</li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg"
+                                        alt="GitLab CI/CD" /></li>
+                                <li>GitHub Actions</li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg"
+                                        alt="GitHub Actions" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg"
+                                        alt="GitHub Actions" /></li>
+                            </ul>
+                        </li>
+                        <li><strong>Version Control:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg"
+                                        alt="Git" /></li>
+                            </ul>
+                        </li>
+                        <li><strong>Databases:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-original-wordmark.svg"
+                                        alt="SQL Server" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
+                                        alt="MySQL" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqldeveloper/sqldeveloper-original.svg"
+                                        alt="SQL Developer" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original-wordmark.svg"
+                                        alt="SQLite" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"
+                                        alt="PostgreSQL" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+                                        alt="MongoDB" /></li>
+                            </ul>
+                        </li>
+                        <li><strong>Containerization:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original-wordmark.svg"
+                                        alt="Docker" /></li>
+                            </ul>
+                        </li>
+                        <li><strong>Cloud Computing:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                                        alt="AWS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
+                                        alt="Google Cloud" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg"
+                                        alt="Azure" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original-wordmark.svg"
+                                        alt="Firebase" /></li>
+                            </ul>
+                        </li>
                     </ul>
-
                 </div>
-
                 <div class="fw">
-                    Some frameworks I've used:
+                    <h3>Frameworks I've Used:</h3>
                     <ul>
-                        ML/DL:
-                        <li>TensorFlow</li>
-                        <li>PyTorch</li>
-                        <br>
-                        Web Dev:
-                        <li>React</li>
-                        <li>Angular</li>
-                        <li>Vue</li>
+                        <li><strong>Machine Learning / Deep Learning:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original-wordmark.svg"
+                                        alt="TensorFlow" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/keras/keras-original-wordmark.svg"
+                                        alt="Keras" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original-wordmark.svg"
+                                        alt="PyTorch" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original-wordmark.svg"
+                                        alt="NumPy" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg"
+                                        alt="Pandas" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg"
+                                        alt="Matplotlib" /></li>
+                            </ul>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
+                                        alt="scikit-learn" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg"
+                                        alt=".NET" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencl/opencl-original.svg"
+                                        alt="OpenCL" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-original.svg"
+                                        alt="OpenGL" /></li>
+                            </ul>
+                        </li>
+                        <li><strong>Web Development:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg"
+                                        alt="Express" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+                                        alt="Node.js" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+                                        alt="React" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angular/angular-original-wordmark.svg"
+                                        alt="Angular" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"
+                                        alt="Redux" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg"
+                                        alt="Electron" /></li>
+                            </ul>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original-wordmark.svg"
+                                        alt="Next.js" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original-wordmark.svg"
+                                        alt="Spring" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+                                        alt="Tailwind CSS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materializecss/materializecss-original.svg"
+                                        alt="Materialize CSS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                                        alt="Bootstrap" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/reactbootstrap/reactbootstrap-original.svg"
+                                        alt="React Bootstrap" /></li>
+                            </ul>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+                                        alt=".NET Core" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original-wordmark.svg"
+                                        alt="FastAPI" /></li>
+                            </ul>
+                        </li>
                     </ul>
-    
+                </div>
+                <div class="ot">
+                    <h3>Other Tools:</h3>
+                    <ul>
+                        <li><strong>IDEs:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg"
+                                        alt="Visual Studio" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                                        alt="VS Code" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetbrains/jetbrains-original.svg"
+                                        alt="JetBrains" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/eclipse/eclipse-original-wordmark.svg"
+                                        alt="Eclipse" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/intellij/intellij-plain-wordmark.svg"
+                                        alt="IntelliJ" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webstorm/webstorm-original.svg"
+                                        alt="WebStorm" /></li>
+                            </ul>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pycharm/pycharm-original-wordmark.svg"
+                                        alt="PyCharm" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original-wordmark.svg"
+                                        alt="Jupyter" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/androidstudio/androidstudio-original-wordmark.svg"
+                                        alt="Android Studio" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xcode/xcode-original.svg"
+                                        alt="Xcode" /></li>
+                            </ul>
+                        </li>
+                        <li><strong>Operating Systems:</strong>
+                            <ul class="icon-list">
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apple/apple-original.svg"
+                                        alt="Apple" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
+                                        alt="Linux" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/debian/debian-original-wordmark.svg"
+                                        alt="Debian" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ubuntu/ubuntu-original-wordmark.svg"
+                                        alt="Ubuntu" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/centos/centos-original-wordmark.svg"
+                                        alt="CentOS" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/windows11/windows11-original-wordmark.svg"
+                                        alt="Windows 11" /></li>
+                                <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original-wordmark.svg"
+                                        alt="Android" /></li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
-            
+
+
+
         <section>
             <h2 class="numbered-heading">Projects</h2>
             <div class="inner container-fluid">
@@ -191,26 +588,32 @@
                     If you are looking for someone to collaborate on project please feel free to reach out to me!
                 </p>
 
-                <a class="email-link" href="mailto:arshjots11@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
+                <a class="email-link" href="mailto:arshjots11@gmail.com" rel="noopener noreferrer" target="_blank">Say
+                    Hello</a>
             </div>
         </section>
-            
+
         <section>
             <div orientation="left" class="socialD">
                 <ul class="social">
                     <li>
                         <a href="https://github.com/thisisarsh" aria-label="GitHub" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-github">
                                 <title>GitHub</title>
-                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/arshjot.exe" aria-label="Instagram" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                        <a href="https://www.instagram.com/arshjot.exe" aria-label="Instagram" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-instagram">
                                 <title>Instagram</title>
                                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -219,20 +622,28 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/ghuman-arshjot" aria-label="Twitter" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                        <a href="https://twitter.com/ghuman-arshjot" aria-label="Twitter" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-twitter">
                                 <title>Twitter</title>
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/arshjot-ghuman" aria-label="Linkedin" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                        <a href="https://www.linkedin.com/in/arshjot-ghuman" aria-label="Linkedin" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-linkedin">
                                 <title>LinkedIn</title>
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
                                 <rect x="2" y="9" width="4" height="12"></rect>
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
@@ -247,17 +658,22 @@
                 <ul class="footer-social">
                     <li>
                         <a href="https://github.com/thisisarsh" aria-label="GitHub" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-github">
                                 <title>GitHub</title>
-                                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/arshjot.exe" aria-label="Instagram" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-instagram">
+                        <a href="https://www.instagram.com/arshjot.exe" aria-label="Instagram" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-instagram">
                                 <title>Instagram</title>
                                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
                                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
@@ -266,20 +682,28 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://twitter.com/ghuman-arshjot" aria-label="Twitter" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                        <a href="https://twitter.com/ghuman-arshjot" aria-label="Twitter" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-twitter">
                                 <title>Twitter</title>
-                                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/arshjot-ghuman" aria-label="Linkedin" target="_blank" rel="noreferrer">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
+                        <a href="https://www.linkedin.com/in/arshjot-ghuman" aria-label="Linkedin" target="_blank"
+                            rel="noreferrer">
+                            <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-linkedin">
                                 <title>LinkedIn</title>
-                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
                                 <rect x="2" y="9" width="4" height="12"></rect>
                                 <circle cx="4" cy="4" r="2"></circle>
                             </svg>
@@ -300,7 +724,9 @@
     <script src="./src/particles.js"></script>
     <script src="./src/app.js"></script>
     <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
 
 </html>
