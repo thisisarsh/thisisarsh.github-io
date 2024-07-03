@@ -1,7 +1,7 @@
 .orbit-icon {
-  width: 1.6em;
-  height: 1.6em;
-  line-height: 1.6em;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
   font-size: 1.2em;
   border-radius: 50%;
   background: #ccc;
@@ -50,66 +50,58 @@ ul[class^=ring] li {
 }
 
 .ring-0 > *:nth-of-type(1) {
-  transform: rotate(23.75deg) translate(20em) rotate(-23.75deg);
+  transform: rotate(27.1428571429deg) translate(20em) rotate(-27.1428571429deg);
 }
 
 .ring-0 > *:nth-of-type(2) {
-  transform: rotate(47.5deg) translate(20em) rotate(-47.5deg);
+  transform: rotate(54.2857142857deg) translate(20em) rotate(-54.2857142857deg);
 }
 
 .ring-0 > *:nth-of-type(3) {
-  transform: rotate(71.25deg) translate(20em) rotate(-71.25deg);
+  transform: rotate(81.4285714286deg) translate(20em) rotate(-81.4285714286deg);
 }
 
 .ring-0 > *:nth-of-type(4) {
-  transform: rotate(95deg) translate(20em) rotate(-95deg);
+  transform: rotate(108.5714285714deg) translate(20em) rotate(-108.5714285714deg);
 }
 
 .ring-0 > *:nth-of-type(5) {
-  transform: rotate(118.75deg) translate(20em) rotate(-118.75deg);
+  transform: rotate(135.7142857143deg) translate(20em) rotate(-135.7142857143deg);
 }
 
 .ring-0 > *:nth-of-type(6) {
-  transform: rotate(142.5deg) translate(20em) rotate(-142.5deg);
+  transform: rotate(162.8571428571deg) translate(20em) rotate(-162.8571428571deg);
 }
 
 .ring-0 > *:nth-of-type(7) {
-  transform: rotate(166.25deg) translate(20em) rotate(-166.25deg);
-}
-
-.ring-0 > *:nth-of-type(8) {
   transform: rotate(190deg) translate(20em) rotate(-190deg);
 }
 
+.ring-0 > *:nth-of-type(8) {
+  transform: rotate(217.1428571429deg) translate(20em) rotate(-217.1428571429deg);
+}
+
 .ring-0 > *:nth-of-type(9) {
-  transform: rotate(213.75deg) translate(20em) rotate(-213.75deg);
+  transform: rotate(244.2857142857deg) translate(20em) rotate(-244.2857142857deg);
 }
 
 .ring-0 > *:nth-of-type(10) {
-  transform: rotate(237.5deg) translate(20em) rotate(-237.5deg);
+  transform: rotate(271.4285714286deg) translate(20em) rotate(-271.4285714286deg);
 }
 
 .ring-0 > *:nth-of-type(11) {
-  transform: rotate(261.25deg) translate(20em) rotate(-261.25deg);
+  transform: rotate(298.5714285714deg) translate(20em) rotate(-298.5714285714deg);
 }
 
 .ring-0 > *:nth-of-type(12) {
-  transform: rotate(285deg) translate(20em) rotate(-285deg);
+  transform: rotate(325.7142857143deg) translate(20em) rotate(-325.7142857143deg);
 }
 
 .ring-0 > *:nth-of-type(13) {
-  transform: rotate(308.75deg) translate(20em) rotate(-308.75deg);
+  transform: rotate(352.8571428571deg) translate(20em) rotate(-352.8571428571deg);
 }
 
 .ring-0 > *:nth-of-type(14) {
-  transform: rotate(332.5deg) translate(20em) rotate(-332.5deg);
-}
-
-.ring-0 > *:nth-of-type(15) {
-  transform: rotate(356.25deg) translate(20em) rotate(-356.25deg);
-}
-
-.ring-0 > *:nth-of-type(16) {
   transform: rotate(380deg) translate(20em) rotate(-380deg);
 }
 
@@ -380,40 +372,23 @@ ul[class^=ring] li {
 }
 
 .ring-6 > *:nth-of-type(1) {
-  transform: rotate(190deg) translate(5em) rotate(-190deg);
+  transform: rotate(76deg) translate(5em) rotate(-76deg);
 }
 
 .ring-6 > *:nth-of-type(2) {
+  transform: rotate(152deg) translate(5em) rotate(-152deg);
+}
+
+.ring-6 > *:nth-of-type(3) {
+  transform: rotate(228deg) translate(5em) rotate(-228deg);
+}
+
+.ring-6 > *:nth-of-type(4) {
+  transform: rotate(304deg) translate(5em) rotate(-304deg);
+}
+
+.ring-6 > *:nth-of-type(5) {
   transform: rotate(380deg) translate(5em) rotate(-380deg);
-}
-
-.ring-7 {
-  width: 5em;
-  height: 5em;
-  animation: clockwiseRotate 0s linear infinite;
-}
-.ring-7 img {
-  animation: counterClockwiseRotate 0s linear infinite;
-}
-
-.ring-7 > *:nth-of-type(1) {
-  transform: rotate(76deg) translate(2.5em) rotate(-76deg);
-}
-
-.ring-7 > *:nth-of-type(2) {
-  transform: rotate(152deg) translate(2.5em) rotate(-152deg);
-}
-
-.ring-7 > *:nth-of-type(3) {
-  transform: rotate(228deg) translate(2.5em) rotate(-228deg);
-}
-
-.ring-7 > *:nth-of-type(4) {
-  transform: rotate(304deg) translate(2.5em) rotate(-304deg);
-}
-
-.ring-7 > *:nth-of-type(5) {
-  transform: rotate(380deg) translate(2.5em) rotate(-380deg);
 }
 
 ul[class^=ring] {
@@ -430,9 +405,9 @@ ul[class^=ring] li {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 1.6em;
-  height: 1.6em;
-  margin: -0.8em;
+  width: 2.5em;
+  height: 2.5em;
+  margin: -1.25em;
 }
 
 /*
