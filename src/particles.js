@@ -90,14 +90,14 @@ var pJS = function(tag_id, params){
       array: []
     },
     interactivity: {
-      detect_on: 'canvas',
+      detect_on: 'window',
       events: {
         onhover: {
           enable: true,
-          mode: 'grab'
+          mode: 'bubble'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
         resize: true
@@ -109,11 +109,13 @@ var pJS = function(tag_id, params){
             opacity: 1
           }
         },
-        bubble:{
-          distance: 200,
-          size: 80,
-          duration: 0.4
-        },
+        bubble: {
+          distance: 143.85614385614386,
+          size: 39.96003996003996,
+          duration: 2,
+          opacity: 0,
+          speed: 3
+      },
         repulse:{
           distance: 200,
           duration: 0.4
