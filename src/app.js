@@ -2,6 +2,7 @@
 //   console.log('callback - particles.js config loaded');
 // });
 
+
 particlesJS('particles-js',
 {
   "particles": {
@@ -73,14 +74,14 @@ particlesJS('particles-js',
     }
   },
   "interactivity": {
-    "detect_on": "canvas",
+    "detect_on": "window",
     "events": {
       "onhover": {
         "enable": true,
         "mode": "bubble"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "repulse"
       },
       "resize": true
@@ -93,8 +94,8 @@ particlesJS('particles-js',
         }
       },
       "bubble": {
-        "distance": 250,
-        "size": 0,
+        "distance": 143.85614385614386,
+        "size": 39.96003996003996,
         "duration": 2,
         "opacity": 0,
         "speed": 3
