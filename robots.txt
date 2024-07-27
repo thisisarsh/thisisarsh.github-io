@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://thisisarsh.github.io/sitemap-index.xml
+Host: https://thisisarsh.github.io
